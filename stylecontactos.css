@@ -37,10 +37,14 @@ input[type=submit]:hover{
 
 .flex-container{
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   
 }
 
-.body{
+body{
   background-image: url(mapa.png);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0 300px;
 }
