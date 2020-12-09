@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="stylecontactos.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <title>Contact Page</title>
 
 </head>
@@ -15,25 +16,48 @@
       <a href="#">Recomendações</a>
       <a href="#">Projetos</a>
       <a href="contactos.html">Contacto</a>
-      
     </div>
-    <br>
   </header>
+  <div class="background">
+    <div class="titleformat">IP ADRESS TRACKER</div>
+    <br>
+    <div class="searchbox1">
+      <input type="text" id="search" placeholder="Pesquise..."/>
+      <i class="fa fa-search-plus searchbox2" aria-hidden="true"></i>
+    </div>
+    </div> 
     <div class="flex-container">
-        <form style="background-image: url(pattern-bg.png);background-size: cover;">
-          <label for="fname">Primeiro Nome</label>
-          <input type="text" id="fname" name="firstname" placeholder="Primeiro Nome">
-      
-          <label for="lname">Ultimo Nome</label>
-          <input type="text" id="lname" name="lastname" placeholder="Ultimo Nome">
-      
-          <label for="subject">Assunto</label>
-          <textarea id="subject" name="subject" placeholder="Assunto" style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
+      <div class="fundo" style="border-top-left-radius: 9px; border-bottom-left-radius: 9px;">
+        <p>IP Address</p>
+        <h1>192.212.174.101</h1>
+      </div>
+      <div class="fundo">
+        <p>Location</p>
+        <h1>Brooklyn, NY 10001</h1>
+      </div>
+      <div class="fundo">
+        <p>Timezone</p>
+        <h1>UTC-05:00</h1>
+      </div>
+      <div class="fundo" style="border-top-right-radius: 9px; border-bottom-right-radius: 9px;">
+        <p>ISP</p>
+        <h1>SpaceX Starlink</h1>
+      </div>
     </div>
-    <div class="imagem">
-    </div>
+
+    <div class="imagem"></div>
+
+    <footer class="footer-area" style="background-image: url(pattern-bg.png);background-size: cover;">
+      <div class="row">
+        <div class="footer-nav">
+            <ul style="list-style-type:none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Recomendações</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
